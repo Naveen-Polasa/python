@@ -261,25 +261,35 @@
 # c1.getSpeed()
 
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class Vehicle(ABC):
+# class Vehicle(ABC):
 
-    @abstractmethod
-    def go(self):
-        pass
+#     @abstractmethod
+#     def go(self):
+#         pass
 
-class Car(Vehicle):
-    pass
-    # def go(self):
-    #     print('drive the car')
+# class Car(Vehicle):
+#     pass
+#     # def go(self):
+#     #     print('drive the car')
 
-class Bike(Vehicle):
+# class Bike(Vehicle):
 
-    def go(self):
-        print('drive the bike')
+#     def go(self):
+#         print('drive the bike')
 
 
-car = Car()
+# car = Car()
 
-car.go()
+# car.go()
+
+
+l = [ 32,13,41,52,3,2,3]
+
+for i, j in enumerate(l):
+    print(i, j)
+
+l.sort()
+
+print(l)
